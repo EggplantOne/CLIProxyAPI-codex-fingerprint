@@ -1,5 +1,10 @@
 # CLI Proxy API
 
+> ⚠️ **本仓库是 [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) v7.3.12 的 fork**，
+> 唯一改动是把发往 OpenAI 的 Codex 上游请求指纹对齐到官方 codex CLI（`codex_exec/0.157.0`），
+> 并移除了一处硬编码的 Google OAuth 密钥。详见 [docs/CODEX_FINGERPRINT.md](docs/CODEX_FINGERPRINT.md)。
+> 其余与上游一致（MIT）。
+
 English | [中文](README_CN.md) | [日本語](README_JA.md)
 
 If you want to use CLIProxyAPI on your desktop, we recommend our [EasyCLIProxyAPI](https://github.com/router-for-me/EasyCLIProxyAPI) desktop client. It provides a graphical configuration UI, automatic updates, system tray integration, and one-click start/stop for the CLIProxyAPI service.
